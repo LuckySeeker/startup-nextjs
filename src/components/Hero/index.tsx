@@ -12,15 +12,37 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS
+                Publish Your Story, Influence the World (Hero Section)
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                Are you an expert in your field seeking to enhance your expertise and create influence? Or do you have a deeply personal story you want to share with the world? If you’re struggling to write your non-fiction book, we’re here to help. 
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <h3 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-2xl md:leading-tight">
+                About Us
+                </h3>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                Our team specializes in helping exceptional people share their stories with the world.  Our co-founders are published authors who have written and published their books and sold thousands of copies of their books. This has led them to speaking opportunities, media visibility, more business and recognition.
+                </p>
+                <h3 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-2xl md:leading-tight">
+                Our Process
+                </h3>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                Before we write, we need a deep understanding of who you are and what you do. This means meetings over zoom, samples of your writing (maybe short-form on platforms like LinkedIn?) and a deep conversation about your vision for your book.                </p>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                If you’re writing a book based on a professional field these can be simpler and easier. If you’re writing something more intense and personal – like a memoir – this can be more involved.                </p>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                Once we’ve got a sense for your aesthetic, content and what you’re trying to say, we agree on the commercials and move on. As a first step in the project, we create a book outline and write the first chapter. That first chapter sets the template for the rest of the book in terms of Language, tone, flow etc. Once you sign – off on that, we create the entire book – usually in 3-4 phases.                  </p>
+                <h3 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-2xl md:leading-tight">
+                Our Approach
+                </h3>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                We work closely with our authors, and keep it small, personal, and intimate.  From the time a project is commissioned till the time a book is published is usually six to nine months. With traditional publishing, that can be much longer. We’re not a mass production house. Think of us more as a boutique literary house that works closely with a few select clients and delivers very high-quality books. If that’s what you seek, drop us an email and we’ll schedule a brief chat. Contact us at ….                </p>
+                <h3 className="mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-2xl md:leading-tight">
+                Contact Us
+                </h3>
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                If that’s what you seek, drop us an email and we’ll schedule a brief chat. Contact us at ….                </p>
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -33,7 +55,7 @@ const Hero = () => {
                   >
                     Star on GitHub
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

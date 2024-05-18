@@ -24,8 +24,10 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="For Professionals and Business Owners."
+                paragraph="Before we write, we need a deep understanding of who you are and what you do. This means meetings over zoom, samples of your writing (maybe short-form on platforms like LinkedIn?) and a deep conversation about your vision for your book.
+
+                If you’re writing a book based on a professional field these can be simpler and easier. If you’re writing something more intense and personal – like a memoir – this can be more involved."
                 mb="44px"
               />
 
@@ -35,15 +37,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Who you are" />
+                    <List text="What you do" />
+                    <List text="Your Goals" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Customized" />
+                    <List text="Indepth" />
+                    <List text="..." />
                   </div>
                 </div>
               </div>
