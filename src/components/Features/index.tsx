@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Our Process - Getting to know you (features)"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Our Approach"
+            paragraph="We work closely with our authors, and keep it small, personal, and intimate. From the time a project is commissioned till the time a book is published is usually six to nine months. With traditional publishing, that can be much longer. We’re not a mass production house. Think of us more as a boutique literary house that works closely with a few select clients and delivers very high-quality books."
             center
           />
 

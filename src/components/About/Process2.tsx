@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
-const AboutSectionTwo = () => {
+const Process2 = () => {
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -67,4 +67,4 @@ const AboutSectionTwo = () => {
   );
 };
 
-export default AboutSectionTwo;
+export default Process2;
