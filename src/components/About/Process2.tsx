@@ -3,7 +3,7 @@ import SectionTitle from "../Common/SectionTitle";
 
 const Process2 = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28 bg-neutral-50">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">

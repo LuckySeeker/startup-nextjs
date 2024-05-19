@@ -5,14 +5,14 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden  bg-white pb-4 pt-[120px] dark:bg-gray-dark md:pb-4 md:pt-[150px] xl:pb-4 xl:pt-[180px] 2xl:pb-4 2xl:pt-[210px]"
       >
-        <div className="container">
+        <div className="container ">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Publish Your Story, Influence the World (Hero Section)
+                Publish Your Story, Influence the World 
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Are you an expert in your field seeking to enhance your expertise and create influence? Or do you have a deeply personal story you want to share with the world? If you’re struggling to write your non-fiction book, we’re here to help. 
@@ -60,6 +60,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        {/* Graphic on TOP RIGHT 
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
@@ -197,7 +198,8 @@ const Hero = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
+        {/* Graphic on BOTTOM LEFT
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
@@ -300,7 +302,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

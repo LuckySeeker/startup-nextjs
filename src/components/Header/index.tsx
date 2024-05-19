@@ -50,7 +50,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className=" max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -59,18 +59,20 @@ const Header = () => {
               >
                 <Image
                   // src="/images/logo/logo-2.svg"
-                  src="/images/logo/ThinReads_transparent - V4.png"
+                  // for light mode
+                  src="/images/logo/ThinReads_transparent - V6.png"
                   alt="logo"
-                  width={200}
-                  height={200}
+                  width={120}
+                  height={120}
                   className="w-full dark:hidden"
                 />
                 <Image
                   // src="/images/logo/logo.svg"
-                  src="/images/logo/ThinReads_transparent - V4.png"
+                  // for dark mode
+                  src="/images/logo/ThinReads_transparent - V6.png"
                   alt="logo"
-                  width={80}
-                  height={80}
+                  width={120}
+                  height={120}
                   className="hidden w-full dark:block"
                 />
               </Link>
